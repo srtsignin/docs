@@ -1,0 +1,8 @@
+site_name: SRT Sign In
+
+theme:
+    name: 'material'
+
+plugins:
+   - search
+   - awesome-pages
