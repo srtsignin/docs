@@ -1,5 +1,5 @@
 site_name: SRT Sign In
-repo_url: https://github.com/srtsignin
+repo_url: https://github.com/srtsignin/
 
 theme:
     name: 'material'
