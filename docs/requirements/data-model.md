@@ -5,7 +5,9 @@ Every **session** should have the following attributes: [^1]
 - _Student id_
 - _Start time_
 - _End time_
-- Course number
+- Course
+    - department
+    - number
 - Section number/professor id? - some way of identifying professor
 - tutor id
 
