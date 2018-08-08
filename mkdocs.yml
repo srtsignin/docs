@@ -3,6 +3,9 @@ repo_url: https://github.com/srtsignin/
 
 theme:
     name: 'material'
+    palette:
+        primary: 'deep purple'
+        accent: 'purple'
 
 plugins:
    - search
