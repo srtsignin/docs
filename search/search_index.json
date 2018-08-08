@@ -42,12 +42,12 @@
         },
         {
             "location": "/requirements/data-model/",
-            "text": "Data Model\n\n\nEvery \nsession\n should have the following attributes: \n1\n\n\n\n\nStudent id\n\n\nStart time\n\n\nEnd time\n\n\nCourse number\n\n\nSection number/professor id? - some way of identifying professor\n\n\ntutor id\n\n\n\n\n\n\n\n\n\n\n\n\nItalics indicates \ncandidate primary key\n\u00a0\n\u21a9",
+            "text": "Data Model\n\n\nEvery \nsession\n should have the following attributes: \n1\n\n\n\n\nStudent id\n\n\nStart time\n\n\nEnd time\n\n\nCourse\n\n\ndepartment\n\n\nnumber\n\n\n\n\n\n\nSection number/professor id? - some way of identifying professor\n\n\ntutor id\n\n\n\n\n\n\n\n\n\n\n\n\nItalics indicates \ncandidate primary key\n\u00a0\n\u21a9",
             "title": "Data Model"
         },
         {
             "location": "/requirements/data-model/#data-model",
-            "text": "Every  session  should have the following attributes:  1   Student id  Start time  End time  Course number  Section number/professor id? - some way of identifying professor  tutor id       Italics indicates  candidate primary key \u00a0 \u21a9",
+            "text": "Every  session  should have the following attributes:  1   Student id  Start time  End time  Course  department  number    Section number/professor id? - some way of identifying professor  tutor id       Italics indicates  candidate primary key \u00a0 \u21a9",
             "title": "Data Model"
         },
         {
