@@ -7,7 +7,6 @@ theme:
 plugins:
    - search
    - awesome-pages:
-        disable_auto_arrange_index: true
         collapse_single_pages: true
 
 markdown_extensions:

@@ -1,4 +1,5 @@
+title: Requirements
 arrange:
-- index.md
-- data-model.md
-- system
+  - index.md
+  - data-model.md
+  - system
