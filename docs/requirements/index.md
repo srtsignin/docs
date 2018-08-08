@@ -28,6 +28,11 @@
     - Total session time per week, quarter, year, etc.
     - Total session time per tutor.
     - Total session time per student.
+    - Students spending more than threshold (3 hours?)
+    - Most frequent courses
+    - Most frequent topics
+    - Average student time spent per course
+        - ex. MA courses might be 10 minutes, but CS courses might be 2 hours
 
 ## Nonfunctional Requirements
 
