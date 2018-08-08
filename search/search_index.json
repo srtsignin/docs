@@ -69,6 +69,16 @@
             "location": "/system/#learning-center-reporting",
             "text": "Need more info about databases/backends.\u00a0 \u21a9 \u21a9 \u21a9",
             "title": "Learning Center Reporting"
+        },
+        {
+            "location": "/estimates/",
+            "text": "Estimates",
+            "title": "Estimates"
+        },
+        {
+            "location": "/estimates/#estimates",
+            "text": "",
+            "title": "Estimates"
         }
     ]
 }
