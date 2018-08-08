@@ -1,0 +1,21 @@
+@startuml Tutor Check-off
+actor Tutor
+participant "Web App"
+participant "Authentication Service"
+participant "RoseFire"
+database "(permissions database?)"
+participant "Data Service"
+database "(sessions database)"
+== Authentication ==
+Tutor -> "Web App": RoseFire Sign In
+"Web App" -> "Authentication Service": Check permissions
+"Authentication Service" -> "RoseFire": Authentication
+"Authentication Service" -> "(permissions database?)": Authorization
+== Classroom Check-Off == 
+Tutor -> "Web App": Get active sessions
+"Web App" -> "Data Service": Get active sessions
+"Data Service" -> "(sessions database)": Get active sessions
+Tutor -> "Web App": Finish student session
+"Web App" -> "Data Service": Store end-of session information
+"Data Service" -> "(sessions database)": Store end-of session information
+@enduml

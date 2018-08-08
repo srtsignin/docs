@@ -1,0 +1,18 @@
+@startuml Student Sign-In
+actor Student
+participant "Web App"
+participant "Authentication Service"
+participant "RoseFire"
+database "(permissions database?)"
+participant "Data Service"
+database "(sessions database)"
+== Authentication ==
+Student -> "Web App": RoseFire Sign In
+"Web App" -> "Authentication Service": Check permissions
+"Authentication Service" -> "RoseFire": Authentication
+"Authentication Service" -> "(permissions database?)": Authorization
+== Classroom Sign-in == 
+Student -> "Web App": Enter tutoring information
+"Web App" -> "Data Service": Record tutoring information
+"Data Service" -> "(sessions database)": Store tutoring information
+@enduml
