@@ -6,12 +6,17 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/data-model/</loc>
+     <loc>/requirements/</loc>
      <lastmod>2018-08-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/system/</loc>
+     <loc>/requirements/data-model/</loc>
+     <lastmod>2018-08-08</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>/requirements/system/</loc>
      <lastmod>2018-08-08</lastmod>
      <changefreq>daily</changefreq>
     </url>

@@ -2,83 +2,88 @@
     "docs": [
         {
             "location": "/",
-            "text": "Requirements\n\n\nInvestment Themes\n\n\n\n\nAccurate Learning Center Usage Metrics\n\n\n\n\nEpics\n\n\n\n\nStudent Sign-In\n\n\nLearning Center Reporting\n\n\n\n\nFeatures\n\n\n\n\nStudent Classroom Sign-In\n\n\nTutor Classroom Sign-In\n\n\nStudent In-Room Sign-In\n \n1\n\n\nTutor In-Room Sign-In\n \n1\n\n\nLearning Center Report Generation\n\n\n\n\nStories\n\n\n\n\nAs a student, I can sign in online to the percopo classroom so that I can receive help from a tutor.\n\n\nAs a tutor, I can check off when a student has completed their session so that the learning center knows about the session.\n\n\nAs a student, I can sign in online when I arrive at a tutor's room so that I can receive help from a tutor.\n \n1\n\n\nAs a learning center employee, I can generate reports about classroom usage.\n\n\nTotal number of visits per week, quarter, year, etc.\n\n\nTotal number of visits per tutor.\n\n\nTotal session time per week, quarter, year, etc.\n\n\nTotal session time per tutor.\n\n\nTotal session time per student.\n\n\n\n\n\n\n\n\nNonfunctional Requirements\n\n\n\n\nThe system must authenticate users and provide authorized access to reporting information (NFR).\n\n\n\n\n\n\n\n\n\n\n\n\nItems in italics are nice-to-have's.\n\u00a0\n\u21a9\n\u21a9\n\u21a9",
-            "title": "Requirements"
-        },
-        {
-            "location": "/#requirements",
             "text": "",
-            "title": "Requirements"
+            "title": "Home"
         },
         {
-            "location": "/#investment-themes",
+            "location": "/requirements/",
+            "text": "Overview\n\n\nInvestment Themes\n\n\n\n\nAccurate Learning Center Usage Metrics\n\n\n\n\nEpics\n\n\n\n\nStudent Sign-In\n\n\nLearning Center Reporting\n\n\n\n\nFeatures\n\n\n\n\nStudent Classroom Sign-In\n\n\nTutor Classroom Sign-In\n\n\nStudent In-Room Sign-In\n \n1\n\n\nTutor In-Room Sign-In\n \n1\n\n\nLearning Center Report Generation\n\n\n\n\nStories\n\n\n\n\nAs a student, I can sign in online to the percopo classroom so that I can receive help from a tutor.\n\n\nAs a tutor, I can check off when a student has completed their session so that the learning center knows about the session.\n\n\nAs a student, I can sign in online when I arrive at a tutor's room so that I can receive help from a tutor.\n \n1\n\n\nAs a learning center employee, I can generate reports about classroom usage.\n\n\nTotal number of visits per week, quarter, year, etc.\n\n\nTotal number of visits per tutor.\n\n\nTotal session time per week, quarter, year, etc.\n\n\nTotal session time per tutor.\n\n\nTotal session time per student.\n\n\n\n\n\n\n\n\nNonfunctional Requirements\n\n\n\n\nThe system must authenticate users and provide authorized access to reporting information (NFR).\n\n\n\n\n\n\n\n\n\n\n\n\nItems in italics are nice-to-have's.\n\u00a0\n\u21a9\n\u21a9\n\u21a9",
+            "title": "Overview"
+        },
+        {
+            "location": "/requirements/#overview",
+            "text": "",
+            "title": "Overview"
+        },
+        {
+            "location": "/requirements/#investment-themes",
             "text": "Accurate Learning Center Usage Metrics",
             "title": "Investment Themes"
         },
         {
-            "location": "/#epics",
+            "location": "/requirements/#epics",
             "text": "Student Sign-In  Learning Center Reporting",
             "title": "Epics"
         },
         {
-            "location": "/#features",
+            "location": "/requirements/#features",
             "text": "Student Classroom Sign-In  Tutor Classroom Sign-In  Student In-Room Sign-In   1  Tutor In-Room Sign-In   1  Learning Center Report Generation",
             "title": "Features"
         },
         {
-            "location": "/#stories",
+            "location": "/requirements/#stories",
             "text": "As a student, I can sign in online to the percopo classroom so that I can receive help from a tutor.  As a tutor, I can check off when a student has completed their session so that the learning center knows about the session.  As a student, I can sign in online when I arrive at a tutor's room so that I can receive help from a tutor.   1  As a learning center employee, I can generate reports about classroom usage.  Total number of visits per week, quarter, year, etc.  Total number of visits per tutor.  Total session time per week, quarter, year, etc.  Total session time per tutor.  Total session time per student.",
             "title": "Stories"
         },
         {
-            "location": "/#nonfunctional-requirements",
+            "location": "/requirements/#nonfunctional-requirements",
             "text": "The system must authenticate users and provide authorized access to reporting information (NFR).       Items in italics are nice-to-have's. \u00a0 \u21a9 \u21a9 \u21a9",
             "title": "Nonfunctional Requirements"
         },
         {
-            "location": "/data-model/",
+            "location": "/requirements/data-model/",
             "text": "Data Model\n\n\nEvery \nsession\n should have the following attributes: \n1\n\n\n\n\nStudent id\n\n\nStart time\n\n\nEnd time\n\n\nCourse number\n\n\nSection number/professor id? - some way of identifying professor\n\n\ntutor id\n\n\n\n\n\n\n\n\n\n\n\n\nItalics indicates \ncandidate primary key\n\u00a0\n\u21a9",
             "title": "Data Model"
         },
         {
-            "location": "/data-model/#data-model",
+            "location": "/requirements/data-model/#data-model",
             "text": "Every  session  should have the following attributes:  1   Student id  Start time  End time  Course number  Section number/professor id? - some way of identifying professor  tutor id       Italics indicates  candidate primary key \u00a0 \u21a9",
             "title": "Data Model"
         },
         {
-            "location": "/system/",
+            "location": "/requirements/system/",
             "text": "System\n\n\nThe system consists of seven components:\n\n\n\n\nWeb App\n\n\nAuthentication Service\n\n\nRoseFire\n\n\n(permissions database?) \n1\n\n\nData Service\n\n\n(banner database) \n1\n\n\n(sessions database) \n1\n\n\n\n\nStudent Sign-In\n\n\n\n\nTutor Check-Off\n\n\n\n\nLearning Center Reporting\n\n\n\n\n\n\n\n\n\n\n\n\nNeed more info about databases/backends.\u00a0\n\u21a9\n\u21a9\n\u21a9",
             "title": "System"
         },
         {
-            "location": "/system/#system",
+            "location": "/requirements/system/#system",
             "text": "The system consists of seven components:   Web App  Authentication Service  RoseFire  (permissions database?)  1  Data Service  (banner database)  1  (sessions database)  1",
             "title": "System"
         },
         {
-            "location": "/system/#student-sign-in",
+            "location": "/requirements/system/#student-sign-in",
             "text": "",
             "title": "Student Sign-In"
         },
         {
-            "location": "/system/#tutor-check-off",
+            "location": "/requirements/system/#tutor-check-off",
             "text": "",
             "title": "Tutor Check-Off"
         },
         {
-            "location": "/system/#learning-center-reporting",
+            "location": "/requirements/system/#learning-center-reporting",
             "text": "Need more info about databases/backends.\u00a0 \u21a9 \u21a9 \u21a9",
             "title": "Learning Center Reporting"
         },
         {
             "location": "/estimates/",
-            "text": "Estimates",
-            "title": "Estimates"
+            "text": "Overview",
+            "title": "Overview"
         },
         {
-            "location": "/estimates/#estimates",
+            "location": "/estimates/#overview",
             "text": "",
-            "title": "Estimates"
+            "title": "Overview"
         }
     ]
 }
