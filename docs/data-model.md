@@ -6,5 +6,5 @@ Every **session** should have the following attributes:
 - Start time
 - End time
 - Course number
-- Section number/professor? - some way of identifying professor
+- Section number/professor id? - some way of identifying professor
 - tutor id
