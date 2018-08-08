@@ -6,6 +6,8 @@ theme:
     palette:
         primary: 'deep purple'
         accent: 'purple'
+    feature:
+        tabs: true
 
 plugins:
    - search
@@ -15,5 +17,6 @@ plugins:
 markdown_extensions:
   - admonition
   - footnotes
+
 
 
