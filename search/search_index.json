@@ -47,12 +47,12 @@
         },
         {
             "location": "/system/",
-            "text": "System\n\n\nThe system consists of six components:\n\n\n\n\nWeb App\n\n\nAuthentication Service\n\n\nRoseFire\n\n\n(permissions database?)\n\n\nData Service\n\n\n(sessions database)\n\n\n\n\nStudent Sign-In\n\n\n\n\nTutor Check-Off\n\n\n\n\nLearning Center Reporting",
+            "text": "System\n\n\nThe system consists of seven components:\n\n\n\n\nWeb App\n\n\nAuthentication Service\n\n\nRoseFire\n\n\n(permissions database?) \n1\n\n\nData Service\n\n\n(banner database) \n1\n\n\n(sessions database) \n1\n\n\n\n\nStudent Sign-In\n\n\n\n\nTutor Check-Off\n\n\n\n\nLearning Center Reporting\n\n\n\n\n\n\n\n\n\n\n\n\nNeed more info about databases/backends.\u00a0\n\u21a9\n\u21a9\n\u21a9",
             "title": "System"
         },
         {
             "location": "/system/#system",
-            "text": "The system consists of six components:   Web App  Authentication Service  RoseFire  (permissions database?)  Data Service  (sessions database)",
+            "text": "The system consists of seven components:   Web App  Authentication Service  RoseFire  (permissions database?)  1  Data Service  (banner database)  1  (sessions database)  1",
             "title": "System"
         },
         {
@@ -67,7 +67,7 @@
         },
         {
             "location": "/system/#learning-center-reporting",
-            "text": "",
+            "text": "Need more info about databases/backends.\u00a0 \u21a9 \u21a9 \u21a9",
             "title": "Learning Center Reporting"
         }
     ]
