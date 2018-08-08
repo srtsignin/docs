@@ -1,0 +1,22 @@
+# System
+
+The system consists of six components:
+
+1. Web App
+2. Authentication Service
+3. RoseFire
+4. (permissions database?)
+5. Data Service
+6. (sessions database)
+
+## Student Sign-In
+
+![Student Sign-In](http://www.plantuml.com/plantuml/svg/VP91Ry8m38Nl_HLMJt3W3rJg1cARjEjws3ca1gpH979S3llrCoq56f5TdVUUtcTd7SMmzDq96kbRT08D7TpgqnN6YkTfMWHLaQLWL55-umus8PJpwQQNeqh96Y7le44-ayL4zEKZVX3hk3LYTYOYb8k0t56CweemZL-NYVDD7-wX3-w8YLMTTGr9dRek9iBLonsXWgdH00uAVdiRX1cg2hP7j3_mKBt8QOUS6tYLDFlVbjlDcEAPViSG1TwUJ8piVJUUa2xCa85-Tu8Cqkk9oHs0tDvpTwqpmvzjNPU5rdERCSwqO_idjwdqJtbTzzECDRfMF-CV "Student Sign-In")
+
+## Tutor Check-Off
+
+![Tutor Check-Off](http://www.plantuml.com/plantuml/svg/ZLD1JiCm4Bpd5QkSuD0FH0gqAYhYX4IGEBl9cgnexCZhzC3hMUAwRQoaSFJkp6XcDbcpLyuFtG7U1syTR5kilrPMwqpLl-znclM2ePfwPJpa7xY7JT_dq-bcy2qQUIjFra25xaWr9g0toxWZ9-D6URLNZ93VzUWwOXOMGnm_tYVC9rbSHA_OZ0bLc6K9YPsop4A-rSCbG07H3rJqQU35PEVT25p8L8IMuCfujeGTTSwnYyJNRTfICq75EleE8X9tUr3CpjhkTC1NhIKpp8P-HWzoN3eYnFAIt9Eo5mWJJB0xSufvyfoh7HdY5jWFZVGHiRUDLIA3WAQH3pOoW8oshZlL-r-NVogjPIT_oGy0 "Tutor Check-off")
+
+## Learning Center Reporting
+
+![Learning Center Reporting](http://www.plantuml.com/plantuml/svg/ZPDFRy8m3CNl_HHMJzjXshrIDn3xeqbS1j9sTejRhD6aSWnZ-_GBxQ0G4RQhu_VoVdOoSegYwsO5Kq8nR6gOa54Ic55hHNqXmLAjG3gTm5ongjAazH8kkKMZaBvJ0UEs3QhZjIwz3vUeR0tCIJPSKj0qiuwUM7nvWOe5EeBqgYLfs3clSh0ltry7oWT_C9WUgHq5Kg_CSmZYv7aouC3DtK2HmJuKpBasy6AImrdN607BOBAayWEEqYUntixdm9u5uIxBOkFfNQpmTs_YcQCBzVWGvtzZ-lJERbbOb0LWNGlLg0HiAXiCusGD6JoJNb2UDFSmPxQLmUkQv0ig_-JYNh7mZziT8wY5qcrkjokt_JinTHeiLWI_URfBfEd7lmkYt108cfh-Zx6pFkENZCWi_7_x0G00 "Learning Center Reporting")

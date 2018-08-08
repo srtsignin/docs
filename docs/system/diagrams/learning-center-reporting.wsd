@@ -1,0 +1,21 @@
+@startuml Learning Center Reporting
+actor "LC Staff"
+participant "Web App"
+participant "Authentication Service"
+participant "RoseFire"
+database "(permissions database?)"
+participant "Data Service"
+database "(sessions database)"
+== Authentication ==
+"LC Staff" -> "Web App": RoseFire Sign In
+"Web App" -> "Authentication Service": Check permissions
+"Authentication Service" -> "RoseFire": Authentication
+"Authentication Service" -> "(permissions database?)": Authorization
+== Learning Center Reporting == 
+"LC Staff" -> "Web App": View dashboard aggregate info
+"Web App" -> "Data Service": Get dashboard aggregate info
+"Data Service" -> "(sessions database)": Query for dashboard aggregate info
+"LC Staff" -> "Web App": Export to csv/xlsx
+"Web App" -> "Data Service": Get exportable session information for time range
+"Data Service" -> "(sessions database)": Get session information
+@enduml
