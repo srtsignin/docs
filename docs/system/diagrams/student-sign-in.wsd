@@ -5,6 +5,7 @@ participant "Authentication Service"
 participant "RoseFire"
 database "(permissions database?)"
 participant "Data Service"
+database "(banner database)"
 database "(sessions database)"
 == Authentication ==
 Student -> "Web App": RoseFire Sign In
@@ -14,5 +15,7 @@ Student -> "Web App": RoseFire Sign In
 == Classroom Sign-in == 
 Student -> "Web App": Enter tutoring information
 "Web App" -> "Data Service": Record tutoring information
+"Data Service" -> "(banner database)": Validate course
+"Data Service" -> "(banner database)": Get professor information
 "Data Service" -> "(sessions database)": Store tutoring information
 @enduml
