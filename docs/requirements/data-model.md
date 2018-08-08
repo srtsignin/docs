@@ -5,6 +5,7 @@ Every **session** should have the following attributes: [^1]
 - _Student id_
 - _Start time_
 - _End time_
+- duration
 - Course
     - department
     - number
