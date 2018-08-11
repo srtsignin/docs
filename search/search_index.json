@@ -93,7 +93,12 @@
         {
             "location": "/design/",
             "text": "Overview\n\n\nBalsamiq Mock-Ups",
-            "title": "Home"
+            "title": "Overview"
+        },
+        {
+            "location": "/design/#overview",
+            "text": "Balsamiq Mock-Ups",
+            "title": "Overview"
         }
     ]
 }
