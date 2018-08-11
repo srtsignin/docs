@@ -52,12 +52,12 @@
         },
         {
             "location": "/requirements/system/",
-            "text": "System\n\n\nThe system consists of seven components:\n\n\n\n\nWeb App\n\n\nAuthentication Service\n\n\nRoseFire\n\n\n(permissions database?) \n1\n\n\nData Service\n\n\n(banner database) \n1\n\n\n(sessions database) \n1\n\n\n\n\nStudent Sign-In\n\n\n\n\nTutor Check-Off\n\n\n\n\nLearning Center Reporting\n\n\n\n\n\n\n\n\n\n\n\n\nNeed more info about databases/backends.\u00a0\n\u21a9\n\u21a9\n\u21a9",
+            "text": "System\n\n\nThe system consists of seven components:\n\n\n\n\nWeb App\n\n\nAuthentication Service\n\n\nRoseFire\n\n\n(permissions database?) \n1\n\n\nData Service \n1\n\n\n(banner database) \n1\n\n\n(sessions database) \n1\n\n\n\n\nStudent Sign-In\n\n\n\n\nTutor Check-Off\n\n\n\n\nLearning Center Reporting\n\n\n\n\n\n\n\n\n\n\n\n\nNeed more info about databases/backends.\u00a0\n\u21a9\n\u21a9\n\u21a9\n\u21a9",
             "title": "System"
         },
         {
             "location": "/requirements/system/#system",
-            "text": "The system consists of seven components:   Web App  Authentication Service  RoseFire  (permissions database?)  1  Data Service  (banner database)  1  (sessions database)  1",
+            "text": "The system consists of seven components:   Web App  Authentication Service  RoseFire  (permissions database?)  1  Data Service  1  (banner database)  1  (sessions database)  1",
             "title": "System"
         },
         {
@@ -72,12 +72,12 @@
         },
         {
             "location": "/requirements/system/#learning-center-reporting",
-            "text": "Need more info about databases/backends.\u00a0 \u21a9 \u21a9 \u21a9",
+            "text": "Need more info about databases/backends.\u00a0 \u21a9 \u21a9 \u21a9 \u21a9",
             "title": "Learning Center Reporting"
         },
         {
             "location": "/estimates/",
-            "text": "Overview\n\n\nSprint 0 - Prototyping\n\n\n8/11 - 8/24\n\n(2 devs) x (8 sp/dev) = 16 sp\n\n\n\n\n2\n UI mockups\n\n\n.5\n login - RoseFire\n\n\n.5\n student\n\n\n.5\n tutor\n\n\n.5\n staff\n\n\n\n\n\n\n4\n Functional Web App\n\n\n1\n login - RoseFire\n\n\n1\n student\n\n\n1\n tutor\n\n\n1\n staff\n\n\n\n\n\n\n8\n Functional backend\n\n\n2\n Deployment to Kubernetes",
+            "text": "Overview\n\n\nSprint 0 - Prototyping\n\n\n8/11 - 8/24\n\n\n(2 devs) x (8 sp/dev) = \n16 sp\n\n\n\n\n(2)\n UI mockups\n\n\n(.5)\n login - RoseFire\n\n\n(.5)\n student\n\n\n(.5)\n tutor\n\n\n(.5)\n staff\n\n\n\n\n\n\n(4)\n Functional Web App\n\n\n(1)\n login - RoseFire\n\n\n(1)\n student\n\n\n(1)\n tutor\n\n\n(1)\n staff\n\n\n\n\n\n\n(8)\n Functional backend\n\n\n(2)\n Deployment to Kubernetes",
             "title": "Overview"
         },
         {
@@ -87,7 +87,7 @@
         },
         {
             "location": "/estimates/#sprint-0-prototyping",
-            "text": "8/11 - 8/24 \n(2 devs) x (8 sp/dev) = 16 sp   2  UI mockups  .5  login - RoseFire  .5  student  .5  tutor  .5  staff    4  Functional Web App  1  login - RoseFire  1  student  1  tutor  1  staff    8  Functional backend  2  Deployment to Kubernetes",
+            "text": "8/11 - 8/24  (2 devs) x (8 sp/dev) =  16 sp   (2)  UI mockups  (.5)  login - RoseFire  (.5)  student  (.5)  tutor  (.5)  staff    (4)  Functional Web App  (1)  login - RoseFire  (1)  student  (1)  tutor  (1)  staff    (8)  Functional backend  (2)  Deployment to Kubernetes",
             "title": "Sprint 0 - Prototyping"
         }
     ]
