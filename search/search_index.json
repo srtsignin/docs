@@ -89,6 +89,11 @@
             "location": "/estimates/#sprint-0-prototyping",
             "text": "8/11 - 8/24  (2 devs) x (8 sp/dev) =  16 sp   (2)  UI mockups  (.5)  login - RoseFire  (.5)  student  (.5)  tutor  (.5)  staff    (4)  Functional Web App  (1)  login - RoseFire  (1)  student  (1)  tutor  (1)  staff    (8)  Functional backend  (2)  Deployment to Kubernetes",
             "title": "Sprint 0 - Prototyping"
+        },
+        {
+            "location": "/design/",
+            "text": "Overview\n\n\nBalsamiq Mock-Ups",
+            "title": "Home"
         }
     ]
 }
