@@ -6,7 +6,7 @@ The system consists of seven components:
 2. Authentication Service
 3. RoseFire
 4. (permissions database?) [^1]
-5. Data Service
+5. Data Service [^1]
 6. (banner database) [^1]
 7. (sessions database) [^1]
 
