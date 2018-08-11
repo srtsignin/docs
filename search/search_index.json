@@ -77,13 +77,18 @@
         },
         {
             "location": "/estimates/",
-            "text": "Overview",
+            "text": "Overview\n\n\nSprint 0 - Prototyping\n\n\n8/11 - 8/24\n\n(2 devs) x (8 sp/dev) = 16 sp\n\n\n\n\n2\n UI mockups\n\n\n.5\n login - RoseFire\n\n\n.5\n student\n\n\n.5\n tutor\n\n\n.5\n staff\n\n\n\n\n\n\n4\n Functional Web App\n\n\n1\n login - RoseFire\n\n\n1\n student\n\n\n1\n tutor\n\n\n1\n staff\n\n\n\n\n\n\n8\n Functional backend\n\n\n2\n Deployment to Kubernetes",
             "title": "Overview"
         },
         {
             "location": "/estimates/#overview",
             "text": "",
             "title": "Overview"
+        },
+        {
+            "location": "/estimates/#sprint-0-prototyping",
+            "text": "8/11 - 8/24 \n(2 devs) x (8 sp/dev) = 16 sp   2  UI mockups  .5  login - RoseFire  .5  student  .5  tutor  .5  staff    4  Functional Web App  1  login - RoseFire  1  student  1  tutor  1  staff    8  Functional backend  2  Deployment to Kubernetes",
+            "title": "Sprint 0 - Prototyping"
         }
     ]
 }
