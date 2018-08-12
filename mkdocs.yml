@@ -8,6 +8,8 @@ theme:
         accent: 'purple'
     feature:
         tabs: true
+    logo:
+        icon: 'cloud'
 
 plugins:
    - search
