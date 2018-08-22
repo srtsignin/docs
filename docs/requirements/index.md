@@ -24,7 +24,7 @@
     - ID Card
 - As a student, I can submit feedback about my tutoring session to inform the learning center about my experience.
 - As a tutor, I can check off when a student has completed their session so that the learning center knows about the session.
-<!-- - _As a student, I can sign in online when I arrive at a tutor's room so that I can receive help from a tutor._ [^1] -->
+
 - As a learning center staff member, I can generate reports about classroom usage.
     - Total number of visits per week, quarter, year, etc.
     - Total number of visits per tutor.
