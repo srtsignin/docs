@@ -13,8 +13,6 @@
 
 - Student Classroom Sign-In
 - Tutor Classroom Sign-In
-<!-- - _Student In-Room Sign-In_ [^1]
-- _Tutor In-Room Sign-In_ [^1] -->
 - Learning Center Report Generation
 
 ## Stories
@@ -24,7 +22,6 @@
     - ID Card
 - As a student, I can submit feedback about my tutoring session to inform the learning center about my experience.
 - As a tutor, I can check off when a student has completed their session so that the learning center knows about the session.
-
 - As a learning center staff member, I can generate reports about classroom usage.
     - Total number of visits per week, quarter, year, etc.
     - Total number of visits per tutor.
