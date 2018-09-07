@@ -91,6 +91,41 @@
             "title": "Learning Center Reporting"
         },
         {
+            "location": "/requirements/stakeholder_interviews/",
+            "text": "Stakeholder Interviews\n\n\nDatabase Requirements Interview\n\n\nCurrent System\n\n\n\n\nCan you describe the current system?\n\n\nVersion of Access (Can we create a mock)\n\n\n\n\n\n\nHow is the data entered?\n\n\nHow do you interact with the data?\n\n\nWho else interacts with the data?\n\n\nIs anyone else directly accessing the database?\n\n\n\n\n\n\nHow much data is stored?\n\n\nHow long is data persisted? (Does this contain everything?)\n\n\nWhat is the schema of the current database? (Tables)\n\n\n\n\nReports Generated\n\n\n\n\nWhat kinds of reports do you generate?\n\n\nAre these SQL queries? Can we see them?\n\n\n\n\n\n\nHow are reports presented after generation? (Are you just sending out numbers?)\n\n\nHow are reports generated?\n\n\nHow long does a report take to generate?\n\n\n\n\nNew System\n\n\n\n\nIf you could have any other report(s) generated what would they look like?\n\n\nHow do you see yourself interacting with the new system?\n\n\n\n\nFinal Questions\n\n\n\n\nIs there anything else that we should have covered that we missed?\n\n\nIs there anyone else we should be talking to?",
+            "title": "Stakeholder Interviews"
+        },
+        {
+            "location": "/requirements/stakeholder_interviews/#stakeholder-interviews",
+            "text": "",
+            "title": "Stakeholder Interviews"
+        },
+        {
+            "location": "/requirements/stakeholder_interviews/#database-requirements-interview",
+            "text": "",
+            "title": "Database Requirements Interview"
+        },
+        {
+            "location": "/requirements/stakeholder_interviews/#current-system",
+            "text": "Can you describe the current system?  Version of Access (Can we create a mock)    How is the data entered?  How do you interact with the data?  Who else interacts with the data?  Is anyone else directly accessing the database?    How much data is stored?  How long is data persisted? (Does this contain everything?)  What is the schema of the current database? (Tables)",
+            "title": "Current System"
+        },
+        {
+            "location": "/requirements/stakeholder_interviews/#reports-generated",
+            "text": "What kinds of reports do you generate?  Are these SQL queries? Can we see them?    How are reports presented after generation? (Are you just sending out numbers?)  How are reports generated?  How long does a report take to generate?",
+            "title": "Reports Generated"
+        },
+        {
+            "location": "/requirements/stakeholder_interviews/#new-system",
+            "text": "If you could have any other report(s) generated what would they look like?  How do you see yourself interacting with the new system?",
+            "title": "New System"
+        },
+        {
+            "location": "/requirements/stakeholder_interviews/#final-questions",
+            "text": "Is there anything else that we should have covered that we missed?  Is there anyone else we should be talking to?",
+            "title": "Final Questions"
+        },
+        {
             "location": "/estimates/",
             "text": "Overview\n\n\nSprint 0 - Prototyping\n\n\n8/11 - 8/24\n\n\n(2 devs) x (8 sp/dev) = \n16 sp\n\n\n\n\n(2)\n UI mockups\n\n\n(.5)\n login - RoseFire\n\n\n(.5)\n student\n\n\n(.5)\n tutor\n\n\n(.5)\n staff\n\n\n\n\n\n\n(4)\n Functional Web App\n\n\n(1)\n login - RoseFire\n\n\n(1)\n student\n\n\n(1)\n tutor\n\n\n(1)\n staff\n\n\n\n\n\n\n(8)\n Functional backend\n\n\n(2)\n Deployment to Kubernetes",
             "title": "Overview"
