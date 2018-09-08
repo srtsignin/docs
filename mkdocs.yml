@@ -19,6 +19,10 @@ plugins:
 markdown_extensions:
   - admonition
   - footnotes
+  - pymdownx.tasklist:
+        custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_png
 
 
 
