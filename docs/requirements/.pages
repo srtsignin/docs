@@ -1,5 +1,6 @@
 title: Requirements
 arrange:
   - index.md
+  - user-stories
   - data-model.md
   - system
