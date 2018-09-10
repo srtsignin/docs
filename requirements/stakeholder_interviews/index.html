@@ -859,17 +859,23 @@
 <h3 id="current-system_1">Current System</h3>
 <h4 id="data">Data</h4>
 <ul>
-<li>LCStats</li>
+<li>LCStats<ul>
 <li>Takes the raw LCData table and replaces numeric representations with human readable values</li>
 <li>This table is used for most of the queries</li>
 <li>Refer to the Access Database for details</li>
-<li>Subjects should not change frequently (just added ENGD or engineering design)</li>
+</ul>
+</li>
+<li>Subjects should not change frequently (just added ENGD or engineering design)<ul>
 <li>If this does occur currently a new number designation would be added</li>
-<li>A few non-obvious Subject Types</li>
+</ul>
+</li>
+<li>A few non-obvious Subject Types<ul>
 <li>16 is a catch all Misc. mainly used to record entries where the information is mostly unreadable (18 is basically the same)</li>
 <li>17 is for workshops<ul>
 <li>Percopo perspectives</li>
 <li>Car maintenance</li>
+</ul>
+</li>
 </ul>
 </li>
 <li>James maintains the Access Database currently on his own</li>
@@ -878,54 +884,78 @@
 </ul>
 <h4 id="forms">Forms</h4>
 <ul>
-<li>Data Entry</li>
+<li>Data Entry<ul>
 <li>Kelly uses this to input the data from the sign in sheets</li>
 <li>Note that names of students and professors use auto-fill</li>
-<li>Professor Info</li>
+</ul>
+</li>
+<li>Professor Info<ul>
 <li>Adds new professors to the system</li>
 <li>Used infrequently</li>
-<li>Student Info </li>
+</ul>
+</li>
+<li>Student Info <ul>
 <li>Adds new students manually to the system, mostly for transfer students</li>
 <li>At the beginning of each year James gets a spreadsheet from the Registrar's office of all the student information which he reformats and imports into Access</li>
 </ul>
+</li>
+</ul>
 <h4 id="reports">Reports</h4>
 <ul>
-<li>Service Report</li>
+<li>Service Report<ul>
 <li>gives the number of visits for each service by subject</li>
 <li>this is used by both James and Susan</li>
 <li>most used report of the 3</li>
-<li>Student Report</li>
+</ul>
+</li>
+<li>Student Report<ul>
 <li>Shows the same information as Service Report but for a specified student</li>
 <li>Used infrequently to check if a certain student has been using the Learning Center</li>
-<li>NTP (Notes to Professors)</li>
+</ul>
+</li>
+<li>NTP (Notes to Professors)<ul>
 <li>Kelly uses this report</li>
 <li>At the end of each week (Friday) professors are sent a list of their students who used the learning center that week</li>
-<li>Review Session Sheet</li>
+</ul>
+</li>
+<li>Review Session Sheet<ul>
 <li>uses the data from the Registrar Dump to create the fancy sign in sheets</li>
+</ul>
+</li>
 </ul>
 <h3 id="new-system_1">New System</h3>
 <h4 id="querying">Querying</h4>
 <ul>
-<li>Query across years?</li>
+<li>Query across years?<ul>
 <li>Not frequent</li>
 <li>The current solution is to copy multiple years into a single spread sheet and deal with it there</li>
 <li>Recently checked multiple years to look for a trend in what week students typically use the Learning Center most</li>
 <li>maybe in the spreadsheet export we can select a range of years</li>
-<li>Custom Queries</li>
+</ul>
+</li>
+<li>Custom Queries<ul>
 <li>James occasionally makes queries that he forgets to delete</li>
 <li>To support these ad-hoc queries we'll need to be able to export the data to csv's</li>
-<li>New queries/reports</li>
+</ul>
+</li>
+<li>New queries/reports<ul>
 <li>frequency queries</li>
-<li>problem description</li>
+</ul>
+</li>
+<li>problem description<ul>
 <li>Mainly useful for tutors to possibly determine what they need to review before helping students</li>
 <li>Possible querying would include key-word search (Need to talk to some returning tutors)</li>
 <li>Might require some adjustment of our original access plan for the role "tutor"</li>
 </ul>
+</li>
+</ul>
 <h4 id="dashboards">Dashboards</h4>
 <ul>
-<li>Public</li>
+<li>Public<ul>
 <li>Visits per classroom/study room by subject</li>
-<li>Private</li>
+</ul>
+</li>
+<li>Private<ul>
 <li>Breakdowns for each tutor<ul>
 <li>evaluation data</li>
 <li>number and duration of visits</li>
@@ -934,6 +964,8 @@
 </ul>
 </li>
 <li>Maybe even a tutor leader-board</li>
+</ul>
+</li>
 </ul>
 <h4 id="miscellaneous">Miscellaneous</h4>
 <ul>
