@@ -486,6 +486,87 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#database-requirements-interview-notes" title="Database Requirements Interview Notes" class="md-nav__link">
+    Database Requirements Interview Notes
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#current-system_1" title="Current System" class="md-nav__link">
+    Current System
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#data" title="Data" class="md-nav__link">
+    Data
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forms" title="Forms" class="md-nav__link">
+    Forms
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reports" title="Reports" class="md-nav__link">
+    Reports
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-system_1" title="New System" class="md-nav__link">
+    New System
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#querying" title="Querying" class="md-nav__link">
+    Querying
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dashboards" title="Dashboards" class="md-nav__link">
+    Dashboards
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#miscellaneous" title="Miscellaneous" class="md-nav__link">
+    Miscellaneous
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
       
       
       
@@ -635,6 +716,87 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#database-requirements-interview-notes" title="Database Requirements Interview Notes" class="md-nav__link">
+    Database Requirements Interview Notes
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#current-system_1" title="Current System" class="md-nav__link">
+    Current System
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#data" title="Data" class="md-nav__link">
+    Data
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forms" title="Forms" class="md-nav__link">
+    Forms
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reports" title="Reports" class="md-nav__link">
+    Reports
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-system_1" title="New System" class="md-nav__link">
+    New System
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#querying" title="Querying" class="md-nav__link">
+    Querying
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dashboards" title="Dashboards" class="md-nav__link">
+    Dashboards
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#miscellaneous" title="Miscellaneous" class="md-nav__link">
+    Miscellaneous
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
       
       
       
@@ -690,8 +852,93 @@
 <h3 id="final-questions">Final Questions</h3>
 <ol>
 <li>Is there anything else that we should have covered that we missed?</li>
-<li>Is there anyone else we should be talking to? </li>
+<li>Is there anyone else we should be talking to?</li>
 </ol>
+<h2 id="database-requirements-interview-notes">Database Requirements Interview Notes</h2>
+<p>Date: 10/09/2018</p>
+<h3 id="current-system_1">Current System</h3>
+<h4 id="data">Data</h4>
+<ul>
+<li>LCStats</li>
+<li>Takes the raw LCData table and replaces numeric representations with human readable values</li>
+<li>This table is used for most of the queries</li>
+<li>Refer to the Access Database for details</li>
+<li>Subjects should not change frequently (just added ENGD or engineering design)</li>
+<li>If this does occur currently a new number designation would be added</li>
+<li>A few non-obvious Subject Types</li>
+<li>16 is a catch all Misc. mainly used to record entries where the information is mostly unreadable (18 is basically the same)</li>
+<li>17 is for workshops<ul>
+<li>Percopo perspectives</li>
+<li>Car maintenance</li>
+</ul>
+</li>
+<li>James maintains the Access Database currently on his own</li>
+<li>Databases are separated by years and go back as far as 2006</li>
+<li>1 hour corresponds to 1 visit (i.e. 3 hours is 3 visits)</li>
+</ul>
+<h4 id="forms">Forms</h4>
+<ul>
+<li>Data Entry</li>
+<li>Kelly uses this to input the data from the sign in sheets</li>
+<li>Note that names of students and professors use auto-fill</li>
+<li>Professor Info</li>
+<li>Adds new professors to the system</li>
+<li>Used infrequently</li>
+<li>Student Info </li>
+<li>Adds new students manually to the system, mostly for transfer students</li>
+<li>At the beginning of each year James gets a spreadsheet from the Registrar's office of all the student information which he reformats and imports into Access</li>
+</ul>
+<h4 id="reports">Reports</h4>
+<ul>
+<li>Service Report</li>
+<li>gives the number of visits for each service by subject</li>
+<li>this is used by both James and Susan</li>
+<li>most used report of the 3</li>
+<li>Student Report</li>
+<li>Shows the same information as Service Report but for a specified student</li>
+<li>Used infrequently to check if a certain student has been using the Learning Center</li>
+<li>NTP (Notes to Professors)</li>
+<li>Kelly uses this report</li>
+<li>At the end of each week (Friday) professors are sent a list of their students who used the learning center that week</li>
+<li>Review Session Sheet</li>
+<li>uses the data from the Registrar Dump to create the fancy sign in sheets</li>
+</ul>
+<h3 id="new-system_1">New System</h3>
+<h4 id="querying">Querying</h4>
+<ul>
+<li>Query across years?</li>
+<li>Not frequent</li>
+<li>The current solution is to copy multiple years into a single spread sheet and deal with it there</li>
+<li>Recently checked multiple years to look for a trend in what week students typically use the Learning Center most</li>
+<li>maybe in the spreadsheet export we can select a range of years</li>
+<li>Custom Queries</li>
+<li>James occasionally makes queries that he forgets to delete</li>
+<li>To support these ad-hoc queries we'll need to be able to export the data to csv's</li>
+<li>New queries/reports</li>
+<li>frequency queries</li>
+<li>problem description</li>
+<li>Mainly useful for tutors to possibly determine what they need to review before helping students</li>
+<li>Possible querying would include key-word search (Need to talk to some returning tutors)</li>
+<li>Might require some adjustment of our original access plan for the role "tutor"</li>
+</ul>
+<h4 id="dashboards">Dashboards</h4>
+<ul>
+<li>Public</li>
+<li>Visits per classroom/study room by subject</li>
+<li>Private</li>
+<li>Breakdowns for each tutor<ul>
+<li>evaluation data</li>
+<li>number and duration of visits</li>
+<li>shortest and longest visit per tutor</li>
+<li>student that has the most visits for that tutor</li>
+</ul>
+</li>
+<li>Maybe even a tutor leader-board</li>
+</ul>
+<h4 id="miscellaneous">Miscellaneous</h4>
+<ul>
+<li>should add location in data collection</li>
+</ul>
                 
                   
                 
