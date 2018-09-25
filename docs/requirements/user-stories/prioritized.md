@@ -2,7 +2,7 @@
 | Done?          | Story                                                                                                                                            | Total    | 
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------|----------| 
 | :white_circle: | As a student, I can sign in to the percopo classroom using my Student ID card so that I can receive help from a tutor.                           |  $63.75  | 
-| :white_circle: | As a student, I can sign in to the percopo classroom using my LDAP username and password so that I can receive help from a tutor.                |  $57.50  | 
+| :white_check_mark: | As a student, I can sign in to the percopo classroom using my LDAP username and password so that I can receive help from a tutor.                |  $57.50  | 
 | :white_circle: | As a Learning Center staff member, I can add and remove members to the system for longevity.                                                     |  $56.50  | 
 | :white_circle: | As a Learning Center staff member, I can see when students are using the Percopo classroom so that I can make the program better.                |  $48.25  | 
 | :white_circle: | As a learning center staff member, I can generate reports about classroom usage.                                                                 |  $44.25  | 
