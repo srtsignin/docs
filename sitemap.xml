@@ -2,47 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>/</loc>
-     <lastmod>2018-09-25</lastmod>
+     <lastmod>2018-09-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>/requirements/</loc>
-     <lastmod>2018-09-25</lastmod>
+     <lastmod>2018-09-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>/requirements/user-stories/categorized/</loc>
-     <lastmod>2018-09-25</lastmod>
+     <lastmod>2018-09-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>/requirements/user-stories/prioritized/</loc>
-     <lastmod>2018-09-25</lastmod>
+     <lastmod>2018-09-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>/requirements/data-model/</loc>
-     <lastmod>2018-09-25</lastmod>
+     <lastmod>2018-09-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>/requirements/system/</loc>
-     <lastmod>2018-09-25</lastmod>
+     <lastmod>2018-09-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>/requirements/stakeholder_interviews/</loc>
-     <lastmod>2018-09-25</lastmod>
+     <lastmod>2018-09-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>/estimates/</loc>
-     <lastmod>2018-09-25</lastmod>
+     <lastmod>2018-09-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>/journal/</loc>
+     <lastmod>2018-09-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>/design/</loc>
-     <lastmod>2018-09-25</lastmod>
+     <lastmod>2018-09-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>

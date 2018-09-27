@@ -201,6 +201,21 @@
             "title": "Sprint 0 - Prototyping"
         },
         {
+            "location": "/journal/",
+            "text": "Overview\n\n\nWeek 4\n\n\nConnor\n\n\n\n\nDeployment and build pipelines\n\n\nWeb app architecture\n\n\nTalking to clients and communicating feedback\n\n\n\n\nChris and Collin\n\n\n\n\nDatabase and backend services\n\n\nRESTful interfaces\n\n\nDockerizing backend\n\n\n\n\nMaya\n\n\n\n\nInitial user interface\n\n\nSplitting modules into components and services\n\n\nTweaking UI based on feedback",
+            "title": "Overview"
+        },
+        {
+            "location": "/journal/#overview",
+            "text": "",
+            "title": "Overview"
+        },
+        {
+            "location": "/journal/#week-4",
+            "text": "Connor   Deployment and build pipelines  Web app architecture  Talking to clients and communicating feedback   Chris and Collin   Database and backend services  RESTful interfaces  Dockerizing backend   Maya   Initial user interface  Splitting modules into components and services  Tweaking UI based on feedback",
+            "title": "Week 4"
+        },
+        {
             "location": "/design/",
             "text": "Overview\n\n\nBalsamiq Mock-Ups",
             "title": "Overview"
