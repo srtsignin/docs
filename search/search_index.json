@@ -202,13 +202,18 @@
         },
         {
             "location": "/journal/",
-            "text": "Overview\n\n\nWeek 4\n\n\nConnor\n\n\n\n\nDeployment and build pipelines\n\n\nWeb app architecture\n\n\nTalking to clients and communicating feedback\n\n\n\n\nChris and Collin\n\n\n\n\nDatabase and backend services\n\n\nRESTful interfaces\n\n\nDockerizing backend\n\n\n\n\nMaya\n\n\n\n\nInitial user interface\n\n\nSplitting modules into components and services\n\n\nTweaking UI based on feedback",
+            "text": "Overview\n\n\nWeek 5\n\n\nChris and Collin\n\n\n\n\nAdded Redis and Rethink pods to kubernetes\n\n\nCreated Schema for active user service\n\n\nCreated Schema for distributing course materials\n\n\nCreated and migrated spike for distributing course materials\n\n\nMoved active user spike endpoints into real active user service\n\n\nStarted CardFire service integrating with Redis (Not in cluster yet)\n\n\n\n\nWeek 4\n\n\nConnor\n\n\n\n\nDeployment and build pipelines\n\n\nWeb app architecture\n\n\nTalking to clients and communicating feedback\n\n\n\n\nChris and Collin\n\n\n\n\nDatabase and backend services\n\n\nRESTful interfaces\n\n\nDockerizing backend\n\n\n\n\nMaya\n\n\n\n\nInitial user interface\n\n\nSplitting modules into components and services\n\n\nTweaking UI based on feedback",
             "title": "Overview"
         },
         {
             "location": "/journal/#overview",
             "text": "",
             "title": "Overview"
+        },
+        {
+            "location": "/journal/#week-5",
+            "text": "Chris and Collin   Added Redis and Rethink pods to kubernetes  Created Schema for active user service  Created Schema for distributing course materials  Created and migrated spike for distributing course materials  Moved active user spike endpoints into real active user service  Started CardFire service integrating with Redis (Not in cluster yet)",
+            "title": "Week 5"
         },
         {
             "location": "/journal/#week-4",
