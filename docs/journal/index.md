@@ -1,5 +1,44 @@
 # Overview
 
+## Week 8
+
+**Chris and Collin**
+
+- Completed endpoints on data service for storing
+- Refactored services for adhere to headers for authorization
+- Deployed active users service
+
+**Maya**
+
+- Re-wrote frontend to adhere to new namespaces
+
+**Connor**
+
+- Configured new namespaces
+
+## Weeks 6 and 7
+
+**Chris and Collin**
+
+- Implemented Rethink integration
+- Configured production Rethink
+- Attempted to fix the Card Reader configuration
+- Implemented and deployed Cardfire
+- Began working on data service
+
+**Maya**
+
+- Deployed web app components as NPM libraries
+- Updated tutor page to include option to checkoff students
+- Attempted to fix the Card Reader configuration
+
+**Connor**
+
+- Created a UWP app with Ionic
+- Deployed web app componenets as NPM libraries
+
+## Weeks 6 and 7
+
 ## Week 5
 
 **Chris and Collin**
