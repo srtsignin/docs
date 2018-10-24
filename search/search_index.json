@@ -202,13 +202,28 @@
         },
         {
             "location": "/journal/",
-            "text": "Overview\n\n\nWeek 5\n\n\nChris and Collin\n\n\n\n\nAdded Redis and Rethink pods to kubernetes\n\n\nCreated Schema for active user service\n\n\nCreated Schema for distributing course materials\n\n\nCreated and migrated spike for distributing course materials\n\n\nMoved active user spike endpoints into real active user service\n\n\nStarted CardFire service integrating with Redis (Not in cluster yet)\n\n\n\n\nMaya\n\n\n\n\nExtracted the web app services and components as libraries into the UI repo\n\n\nPublished the new UI libraries as npm packages in the @srtsignin organization\n\n\nImproved the UI the tutor page that displayed student courses\n\n\nUpdated the student page to work with the new course schema\n\n\n\n\nWeek 4\n\n\nConnor\n\n\n\n\nDeployment and build pipelines\n\n\nWeb app architecture\n\n\nTalking to clients and communicating feedback\n\n\n\n\nChris and Collin\n\n\n\n\nDatabase and backend services\n\n\nRESTful interfaces\n\n\nDockerizing backend\n\n\n\n\nMaya\n\n\n\n\nInitial user interface\n\n\nSplitting modules into components and services\n\n\nTweaking UI based on feedback",
+            "text": "Overview\n\n\nWeek 8\n\n\nChris and Collin\n\n\n\n\nCompleted endpoints on data service for storing\n\n\nRefactored services for adhere to headers for authorization\n\n\nDeployed active users service\n\n\n\n\nMaya\n\n\n\n\nRe-wrote frontend to adhere to new namespaces\n\n\n\n\nConnor\n\n\n\n\nConfigured new namespaces\n\n\n\n\nWeeks 6 and 7\n\n\nChris and Collin\n\n\n\n\nImplemented Rethink integration\n\n\nConfigured production Rethink\n\n\nAttempted to fix the Card Reader configuration\n\n\nImplemented and deployed Cardfire\n\n\nBegan working on data service\n\n\n\n\nMaya\n\n\n\n\nDeployed web app components as NPM libraries\n\n\nUpdated tutor page to include option to checkoff students\n\n\nAttempted to fix the Card Reader configuration\n\n\n\n\nConnor\n\n\n\n\nCreated a UWP app with Ionic\n\n\nDeployed web app componenets as NPM libraries\n\n\n\n\nWeeks 6 and 7\n\n\nWeek 5\n\n\nChris and Collin\n\n\n\n\nAdded Redis and Rethink pods to kubernetes\n\n\nCreated Schema for active user service\n\n\nCreated Schema for distributing course materials\n\n\nCreated and migrated spike for distributing course materials\n\n\nMoved active user spike endpoints into real active user service\n\n\nStarted CardFire service integrating with Redis (Not in cluster yet)\n\n\n\n\nMaya\n\n\n\n\nExtracted the web app services and components as libraries into the UI repo\n\n\nPublished the new UI libraries as npm packages in the @srtsignin organization\n\n\nImproved the UI the tutor page that displayed student courses\n\n\nUpdated the student page to work with the new course schema\n\n\n\n\nWeek 4\n\n\nConnor\n\n\n\n\nDeployment and build pipelines\n\n\nWeb app architecture\n\n\nTalking to clients and communicating feedback\n\n\n\n\nChris and Collin\n\n\n\n\nDatabase and backend services\n\n\nRESTful interfaces\n\n\nDockerizing backend\n\n\n\n\nMaya\n\n\n\n\nInitial user interface\n\n\nSplitting modules into components and services\n\n\nTweaking UI based on feedback",
             "title": "Overview"
         },
         {
             "location": "/journal/#overview",
             "text": "",
             "title": "Overview"
+        },
+        {
+            "location": "/journal/#week-8",
+            "text": "Chris and Collin   Completed endpoints on data service for storing  Refactored services for adhere to headers for authorization  Deployed active users service   Maya   Re-wrote frontend to adhere to new namespaces   Connor   Configured new namespaces",
+            "title": "Week 8"
+        },
+        {
+            "location": "/journal/#weeks-6-and-7",
+            "text": "Chris and Collin   Implemented Rethink integration  Configured production Rethink  Attempted to fix the Card Reader configuration  Implemented and deployed Cardfire  Began working on data service   Maya   Deployed web app components as NPM libraries  Updated tutor page to include option to checkoff students  Attempted to fix the Card Reader configuration   Connor   Created a UWP app with Ionic  Deployed web app componenets as NPM libraries",
+            "title": "Weeks 6 and 7"
+        },
+        {
+            "location": "/journal/#weeks-6-and-7_1",
+            "text": "",
+            "title": "Weeks 6 and 7"
         },
         {
             "location": "/journal/#week-5",
