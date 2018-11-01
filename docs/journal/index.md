@@ -18,7 +18,10 @@
 
 **Connor**
 
-- stuff?
+- Investigated optimizing the deployment process using Helm
+  - Improves modifiability by reducing the cycle time
+- Collected usability feedback from stakeholders
+  - Need to consider workflows about students in the classroom who aren't there for help
 
 ## Week 8
 
@@ -56,8 +59,6 @@
 
 - Created a UWP app with Ionic
 - Deployed web app componenets as NPM libraries
-
-## Weeks 6 and 7
 
 ## Week 5
 
