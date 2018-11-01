@@ -1,5 +1,25 @@
 # Overview
 
+## Week 9
+
+**Chris and Collin**
+
+- Determined that couchdb was the best fit for our data model based on queries need to be ran
+  - Fits well because of nesting document nature of data model
+- Determined that the dataservice needed to be written in a fast language due to the massive amounts of data manipulation
+- Setup Data-service to expose new REST endpoints for writing data and reading data out as a csv
+  - Need to connect a piece to the CSV endpoint for learning Center
+
+**Maya**
+
+- Attached webapp to active user service REST endpoints
+- Investigated npm for modularizing the code to be deployed as a native app and a web app
+  - This allows us to deploy on multiple platforms trivially
+
+**Connor**
+
+- stuff?
+
 ## Week 8
 
 **Chris and Collin**
