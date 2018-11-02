@@ -5,23 +5,25 @@
 **Chris and Collin**
 
 - Determined that couchdb was the best fit for our data model based on queries need to be ran
-  - Fits well because of nesting document nature of data model
+    - Fits well because of nesting document nature of data model
 - Determined that the dataservice needed to be written in a fast language due to the massive amounts of data manipulation
 - Setup Data-service to expose new REST endpoints for writing data and reading data out as a csv
-  - Need to connect a piece to the CSV endpoint for learning Center
+    - Need to connect a piece to the CSV endpoint for learning Center
 
 **Maya**
 
 - Attached webapp to active user service REST endpoints
+    - Added security checks using the endpoints to verify if user has access to page
 - Investigated npm for modularizing the code to be deployed as a native app and a web app
-  - This allows us to deploy on multiple platforms trivially
+    - This allows us to deploy on multiple platforms trivially
+- Implemented a responsive UI for the web app
 
 **Connor**
 
 - Investigated optimizing the deployment process using Helm
-  - Improves modifiability by reducing the cycle time
+    - Improves modifiability by reducing the cycle time
 - Collected usability feedback from stakeholders
-  - Need to consider workflows about students in the classroom who aren't there for help
+    - Need to consider workflows about students in the classroom who aren't there for help
 
 ## Week 8
 
