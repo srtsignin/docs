@@ -72,12 +72,12 @@
         },
         {
             "location": "/requirements/data-model/",
-            "text": "Data Model\n\n\nEvery \nsession\n should have the following attributes: \n1\n\n\n\n\nStudent id\n\n\nStart time\n\n\nEnd time\n\n\nduration\n\n\nCourse\n\n\ndepartment\n\n\nnumber\n\n\n\n\n\n\nSection number/professor id? - some way of identifying professor\n\n\ntutor id\n\n\n\n\n\n\n\n\n\n\n\n\nItalics indicates \ncandidate primary key\n\u00a0\n\u21a9",
+            "text": "Data Model\n\n\n\n\nEvery **session** should have the following attributes: [^1]\n\n- _Student id_\n- _Start time_\n- _End time_\n- duration\n- Course\n    - department\n    - number\n- Section number/professor id? - some way of identifying professor\n- tutor id\n\n[^1]: Italics indicates _candidate primary key_",
             "title": "Data Model"
         },
         {
             "location": "/requirements/data-model/#data-model",
-            "text": "Every  session  should have the following attributes:  1   Student id  Start time  End time  duration  Course  department  number    Section number/professor id? - some way of identifying professor  tutor id       Italics indicates  candidate primary key \u00a0 \u21a9",
+            "text": "Every **session** should have the following attributes: [^1]\n\n- _Student id_\n- _Start time_\n- _End time_\n- duration\n- Course\n    - department\n    - number\n- Section number/professor id? - some way of identifying professor\n- tutor id\n\n[^1]: Italics indicates _candidate primary key_",
             "title": "Data Model"
         },
         {
