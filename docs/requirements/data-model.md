@@ -1,5 +1,8 @@
 # Data Model
 
+![Data Model](data-model.jpg)
+
+```
 Every **session** should have the following attributes: [^1]
 
 - _Student id_
@@ -13,3 +16,4 @@ Every **session** should have the following attributes: [^1]
 - tutor id
 
 [^1]: Italics indicates _candidate primary key_
+```
